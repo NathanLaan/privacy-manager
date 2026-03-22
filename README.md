@@ -1,6 +1,6 @@
 # Privacy-Manager
 
-Simple web browser extension to quickly delete website cookies and data for the currently active website (active tab).
+Simple web browser extension to quickly disable JavaScript, as well as delete website cookies and data for the currently active website (active tab).
 
 - [Firefox Extension Page](https://addons.mozilla.org/en-US/developers/addon/privacy-manager/)
 - [Chrome Extension Page (Pending Approval)](https://chromewebstore.google.com/)
