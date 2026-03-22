@@ -6,11 +6,11 @@ target="$1"
 if [ "$target" == "firefox" ]; then
     # Firefox packaging
     mv manifest_firefox.json manifest.json
-    zip -r ../privacy-manager-firefox.zip *
+    zip -r ../privacy-manager-firefox.zip * -x package.sh
     mv manifest.json manifest_firefox.json
 else
     # Chrome packaging (default)
     mv manifest_chrome.json manifest.json
-    zip -r ../privacy-manager-chrome.zip *
+    zip -r ../privacy-manager-chrome.zip * -x package.sh
     mv manifest.json manifest_chrome.json
 fi

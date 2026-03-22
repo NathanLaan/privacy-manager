@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Privacy-Manager",
   "version": "1.0.0",
-  "description": "Web browser extension to quickly delete website cookies and data for the currently active website (active tab).",
+  "description": "Web browser extension to disable JavaScript, and also quickly delete website cookies and data for the currently active website (active tab).",
   "developer": {
     "name": "Nathan Laan",
     "url": "https://github.com/NathanLaan/privacy-manager"

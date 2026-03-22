@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Privacy-Manager",
   "version": "1.1.1",
-  "description": "Web browser extension to quickly delete website cookies and data for the currently active website (active tab).",
+  "description": "Web browser extension to disable JavaScript, and also quickly delete website cookies and data for the currently active website (active tab).",
   "developer": {
     "name": "Nathan Laan",
     "url": "https://github.com/NathanLaan/privacy-manager"
@@ -10,7 +10,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{272c67b0-929f-4d1a-aa86-eff52f94271a}",
-      "strict_min_version": "78.0"
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
     }
   },
   "permissions": [
